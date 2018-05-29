@@ -46,7 +46,7 @@ const groupedAndSorted = groupBy(orderBy(filteredEmojis, 'sort_order'), 'categor
 // convert the emoji object to a character
 const emojisByCategory = mapValues(groupedAndSorted, group => group.map(charFromEmojiObj))
 
-const CATEGORIES = ['People', 'Nature', 'Foods', 'Activity', 'Places', 'Objects', 'Symbols', 'Flags']
+const CATEGORIES = ['Smileys & People', 'Animals & Nature', 'Food & Drink', 'Activities', 'Travel & Places', 'Objects', 'Symbols', 'Flags']
 
 
 class EmojiPicker extends Component {
