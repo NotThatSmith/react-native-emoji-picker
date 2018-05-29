@@ -16,13 +16,11 @@
   ],
   "peerDependencies": {
     "react": "^15.2.0",
-    "react-native": "^0.30.0",
-    "prop-types": "^15.6.0"
+    "react-native": "^0.30.0"
   },
   "dependencies": {
     "emoji-datasource": "^4.0.4",
     "lodash": "^4.11.1",
-    "prop-types": "^15.6.0",
     "string.fromcodepoint": "^0.2.1"
   },
   "author": "Yonah Forst <yonaforst@hotmail.com> (https://github.com/yonahforst)",
